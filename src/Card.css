@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.Card {
+    /* align-items: center; */
+    height: 300px;
+    display: flex;
+    max-width: 340px;
+    overflow: scroll;
+    margin-top: 15px;
+    background-color: slategray;
+    border-radius: 10%;
+    margin: 8px;
+    padding: 5px;
+}
+
+.cardImg {
+    height: 60%;
+    position: sticky;
+    top: 25%;
+    display: block;
+}
+
+.cardText {
+    margin: 5px;
+}
